@@ -25,9 +25,7 @@ if kind == 1
   end
 end  
 game = Game.new if kind == 2
-until game.over?
-  game.play
-end
+game.play
 end
 start
 play_again = ""
